@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.moving-text {
+    background-color: rgb(250, 0, 0);
+    color: rgb(250, 250, 0);
+    font-size: 18px;
+    width: 102%;
+    height: 30px;
+}
+
+.moving-text marquee {
+    padding: 0;
+}
+
+.chief-logo {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.navbar {
+    width: 102%;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 10px -2px #fff;
+}
+
+.chief-title {
+    margin-top: 120px;
+}
+
+.chief-title h1 {
+    font-size: 54px;
+    color: rgb(206, 206, 11);
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.chief-title p {
+    margin-top: 0px;
+    font-size: 25px;
+    color: rgb(200, 9, 9);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.delivery-man {
+    width: 400px;
+}
+
+.delivery {
+    margin-top: 105px;
+}
+
+.delivery-info {
+    margin-top: 105px;
+    color: rgb(253, 249, 0);
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.d-info-p1 {
+    font-size: 65px;
+}
+
+.d-info-p2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.d-info-p3 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.underline-items {
+    transition: 300ms ease-in-out;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.underline-items:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.chief-menu {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chief-menu-heading {
+    color: #D4D4D4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    padding: 0px 15px;
+}
+
+.line-divider {
+    width: 99vw;
+    height: 2px;
+    background-color: #D4D4D4;
+}
+
+.line-divider1 {
+    height: 2px;
+    background-color: #D4D4D4;
+    width: 99vw;
+}
+
+
+#menu {
+    height: 90px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/* -------------- */
+#call-logo {
+    width: 20px;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+
+/* ----------------- */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.modal-body-para {
+    margin: 0 auto;
+}
+
+.modal-options {
+    margin-bottom: 10px;
+}
+
+.modaal-btn,
+.navbar-toggler {
+    margin-right: 2%;
+}
+
+footer {
+    background-color: #1c1816bb;
+    border-top: 2px solid #fff;
+}
+
+#chief-logo-2 {
+    width: 80px;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.footer-div p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-logos {
+    width: 40px;
+    margin: 0 5px;
+    transition: .4s ease-in-out;
+}
+
+.social-logos:hover {
+    width: 44px;
+}
+
+#footer-divider {
+    height: 50px;
+    width: 2px;
+    background-color: #fff;
+    align-self: center;
+    margin: 0 40px;
+}
+
+#copy-rights {
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.outside-card {
+    padding: 3px;
+}
+
+.download {
+    width: 300px;
+    margin: 0px auto;
+    font-size: 22px;
+    position: relative;
+    top: 13px;
+}
+
+.download a button {
+    color: #fff;
+}
+
+.underline-links {
+    text-decoration: underline;
+    color: #0645ad;
+}
+
+.or {
+    font: 18px;
+    margin: 5px 0;
+}
+
+/* media querries */
+@media all and (max-width:1200px) {
+    .d-info-p1 {
+        font-size: 55px;
+    }
+}
+
+@media all and (max-width:991.6px) {
+    .dropdown-menu {
+        background-color: rgb(33, 37, 41);
+        border: 2px solid #fff;
+        width: 98%;
+    }
+
+    .dropdown-item {
+        color: rgba(255, 255, 255, 0.55);
+    }
+}
+
+@media all and (max-width:935px) {
+    .card {
+        width: 31vw !important;
+    }
+
+    .fried-chicken,
+    .desserts-img {
+        height: auto !important;
+    }
+}
+
+@media all and (max-width:940px) {
+    .d-info-p1 {
+        font-size: 40px;
+    }
+
+    .d-info-pw {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width:840px) {
+    /* .navbar {
+        padding: 12px 0;
+    } */
+
+    .d-info-p1 {
+        font-size: 40px;
+    }
+
+    .d-info-p2 {
+        font-size: 25px;
+        margin-top: 18px;
+    }
+
+    .d-info-p3 {
+        font-size: 35px;
+        margin-top: 18px;
+    }
+}
+
+@media all and (max-width:819px) {
+
+    .padding-h-1,
+    .shakes-card-h5 {
+        padding-bottom: 23px;
+    }
+}
+
+@media all and (max-width:750px) {
+    .delivery-info {
+        margin-top: 75px;
+    }
+
+    .chief-title {
+        margin-top: 100px;
+    }
+
+    .chief-title h1 {
+        font-size: 42px;
+        color: rgb(206, 206, 11);
+        font-family: 'Aldrich', sans-serif;
+        margin-bottom: 0px;
+    }
+
+    .chief-title p {
+        margin-top: 0px;
+        color: #fff;
+        font-size: 20px;
+        color: rgb(144, 9, 9);
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media all and (max-width:755px) {
+
+    .shakes-card-h5 {
+        padding-bottom: 0px;
+    }
+}
+
+@media all and (max-width:700px) {
+    .delivery {
+        margin-top: 60px;
+    }
+
+    .delivery-man {
+        width: 220px;
+    }
+
+    .delivery-info {
+        margin-top: 35px;
+    }
+
+    .d-info-p1 {
+        font-size: 30px;
+    }
+
+    .d-info-p2 {
+        font-size: 22px;
+    }
+
+    .chief-menu-heading {
+        font-size: 30px;
+        padding: 0px 15px;
+    }
+
+}
+
+@media all and (max-width:625px) {
+    .delivery {
+        margin-top: 60px;
+    }
+
+    .delivery-man {
+        width: 200px;
+    }
+
+    .delivery-info {
+        margin-top: 28px;
+    }
+
+    .d-info-p1 {
+        font-size: 28px;
+    }
+
+    .d-info-p2 {
+        font-size: 20px;
+    }
+
+    .d-info-p3 {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 44vw !important;
+    }
+
+    .shake,
+    .fried-chicken,
+    .desserts-img {
+        height: auto !important;
+    }
+
+    .padding-h-1 {
+        padding-bottom: 0px;
+    }
+
+    .chief-title {
+        margin-top: 50px;
+    }
+
+    .chief-title h1 {
+        font-size: 34px;
+        margin-bottom: 0px;
+    }
+
+    .chief-title p {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+    .download {
+        width: 90vw;
+    }
+}
+
+@media all and (max-width:576px) {
+
+    .shakes-card-h5 {
+        padding-bottom: 23px;
+    }
+}
+
+@media all and (max-width:531.5px) {
+
+    .shakes-card-h5 {
+        padding-bottom: 0px;
+    }
+}
+
+@media all and (max-width:470px) {
+    #copy-rights {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .card {
+        width: 42vw;
+    }
+}
+
+@media all and (max-width:354px) {
+    .fried-card-h5 {
+        padding-bottom: 25px;
+    }
+}
+
+@media all and (max-width:347.5px) {
+    .fried-card-h5 {
+        padding-bottom: 0;
+    }
+}
+
+@media all and (max-width:341.5px) {
+    .shakes-card-h5 {
+        padding-bottom: 23px;
+    }
+}
+
+@media all and (max-width:338px) {
+    .steaks-card-h5 {
+        padding-bottom: 23px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .card {
+        width: 90vw !important;
+    }
+}
+
+/* @media(max-width:323.5px) {
+    .shakes-card-h5 {
+        padding-bottom: 0 !important;
+    }
+} */

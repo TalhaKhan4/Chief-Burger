@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/chief-logo.jpg">
+    <title>Chief Burger — The Best Fast Food in Town</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/chief-logo.jpg" class="chief-logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">
+                            <span class="underline-items">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#menu">
+                            <span class="underline-items">Menu</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="underline-items">About us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="underline-items">Visit us</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="underline-items">Contact us</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tel:091-7560600">Phone</a></li>
+                            <li><a class="dropdown-item" href="mailto:chief.burger@yahoo.com">E-mail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning modaal-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Order Now
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Explore Options:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-options">
+                        <p class="modal-body-para">Please select your desired items from menu and order by calling us:
+                        </p>
+                        <a href="tel:091-7560600" class="underline-links">
+                            <img id="call-logo" src="images/call-icon.png" alt="">091-7560600
+                        </a>
+                    </div>
+                    <p class="or">(OR)</p>
+                    <div class="modal-options">
+                        <p class="modal-body-para">Order through:</p>
+                        <a href="https://www.zarrasha.com/en/store/chief-burger-menu-Peshawar/940013"
+                            class="underline-links">zarrasha.com</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="heading">
+                <h2>BURGERS</h2>
+                <img src="images/hamburger.png" alt="">
+            </div>
+            <div class="col-12" id="background">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped border-dark" id="tab">
+                        <thead id="t-head">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">NAME</th>
+                                <th scope="col">PRICE</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>CHIEF SPEACIAL BURGER</td>
+                                <td class="f">RS.666/-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>JUMBO KABAB BURGER</td>
+                                <td>RS.638/-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>JUMBO CHEESE BURGER</td>
+                                <td>RS.666/-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>CHICKEN TIKKA BURGER</td>
+                                <td>RS.409/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>CHK.CHEESE TIKKA BURGER</td>
+                                <td>RS.438/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>CHICKEN BURGER</td>
+                                <td>RS.409/-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td> CHICKEN CHEESE BURGER</td>
+                                <td>RS.438/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td> CHICKEN STEAK BURGER(Zinger)</td>
+                                <td>RS.552/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>CHK.CHEESE STEAK BURGER(Zinger)</td>
+                                <td>RS.591/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>GRILL CHICKEN BURGER </td>
+                                <td>RS.409/-</td>
+
+                            </tr>
+
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>GRILL CHICKEN CHEESE BURGER</td>
+                                <td>RS.438/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>BEEF BURGER </td>
+                                <td>RS.581/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td>BEEF CHEESE BURGER</td>
+                                <td>RS.610/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td>BEEF STEAK BURGER</td>
+                                <td>RS.722/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td>BEEF CHEESE STEAK BURGER</td>
+                                <td>RS.753/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td>KABAB BEEF BURGER</td>
+                                <td>RS.581/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">17</th>
+                                <td>KABAB BEEF CHEESE BURGER</td>
+                                <td>RS.610/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">18</th>
+                                <td>FISH BURGER</td>
+                                <td>RS.685/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">19</th>
+                                <td>FISH CHEESE BURGER</td>
+                                <td>RS.715/-</td>
+                                <td>
+                            </tr>
+                            <tr>
+                                <th scope="row">20</th>
+                                <td>PINEAPPLE BURGER</td>
+                                <td>RS.695/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">21</th>
+                                <td>SHAMI BURGER</td>
+                                <td>RS.333/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">22</th>
+                                <td>SHAMI CHEESE BURGER</td>
+                                <td>RS.381/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">23</th>
+                                <td>KIDS CHICKEN BURGER</td>
+                                <td>RS.304/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">24</th>
+                                <td>KIDS CHICKEN CHEESE BURGER</td>
+                                <td>RS.333/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">25</th>
+                                <td>CUTLETS BURGER</td>
+                                <td>RS.190/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">26</th>
+                                <td>CUTLETS CHEESE BURGER</td>
+                                <td>RS.219/-</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">27</th>
+                                <td>EGG BURGER</td>
+                                <td>RS.152/-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
