@@ -28,6 +28,9 @@ body {
 .navbar {
     width: 102%;
     margin-bottom: 15px;
+     /* for safari */
+    position: -webkit-sticky;
+    /* ----------------------- */
     position: sticky;
     top: 0;
     z-index: 1;
